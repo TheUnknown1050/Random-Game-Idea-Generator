@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background: #1abc9c;
+}
+button {
+    background-color: #16977d; /* Green */
+    border: 2px solid #6bf0d5;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.1s;
+  }
+
+  button:hover {
+    background-color: #0f6352; /* Green */
+    color: white;
+    cursor: pointer;
+  }
+
+  button:active{
+    background-color: #158a72;
+    box-shadow: 0 10px rgb(66, 66, 66);
+    transform: translateY(4px)
+  }
+
+  .buttonContainer {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .answerSlotClass {
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
